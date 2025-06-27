@@ -1,6 +1,7 @@
 {
   "name": "rvk-pica-classifier",
   "version": "1.0.0",
+  "homepage": "https://thomasgerdes.github.io/rvk-pica-classifier",
   "description": "Intelligenter PICA-zu-RVK Klassifikator für deutsche Bibliotheken - KI-unterstützte Analyse von Bibliotheksmetadaten",
   "private": true,
   "keywords": [
