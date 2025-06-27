@@ -1,8 +1,8 @@
 {
   "name": "rvk-pica-classifier",
   "version": "1.0.0",
-  "homepage": "https://thomasgerdes.github.io/rvk-pica-classifier",
   "description": "Intelligenter PICA-zu-RVK Klassifikator für deutsche Bibliotheken - KI-unterstützte Analyse von Bibliotheksmetadaten",
+  "homepage": "https://IhrUsername.github.io/rvk-pica-classifier",
   "private": true,
   "keywords": [
     "bibliothek",
@@ -14,13 +14,12 @@
     "metadata",
     "ai"
   ],
-  "author": "Ihre Name",
+  "author": "Ihr Name",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/IhrUsername/rvk-pica-classifier.git"
   },
-  "homepage": "https://IhrUsername.github.io/rvk-pica-classifier",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -48,4 +47,15 @@
     ]
   },
   "browserslist": {
-    "productio
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
