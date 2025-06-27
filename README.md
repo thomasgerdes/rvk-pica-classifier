@@ -1,40 +1,29 @@
-# RVK-PICA Klassifikator
+# RVK-PICA Classifier
 
-🎯 **Intelligenter PICA-zu-RVK Klassifikator für deutsche Bibliotheken**
+**RVK classification tool for German PICA libraries**
 
-Ein KI-unterstütztes Tool zur automatischen Analyse von PICA-Metadaten und zur Generierung passender RVK-Notationen (Regensburger Verbundklassifikation).
+This is an experimental project created entirely using artificial intelligence.
 
-## 🚀 Features
+## Overview
 
-### 📊 **PICA-Format-Unterstützung**
-- ✅ **50+ PICA-Felder** vollständig unterstützt (K10plus-Standard)
-- ✅ **Vollautomatische Extraktion** aller Metadaten
-- ✅ **Intelligente Bereinigung** und Deduplizierung
-- ✅ **Realistische Beispieldaten** zum Testen
+Analyzes PICA format metadata and suggests RVK (Regensburger Verbundklassifikation) notations for German library cataloging.
 
-### 🧠 **KI-gestützte Analyse**
-- ✅ **LLM-ähnliche Textanalyse** für Themenerkennung
-- ✅ **Multi-System-Integration** (DDC, NLM, MeSH, STW, etc.)
-- ✅ **Konfidenz-Scoring** basierend auf mehreren Quellen
-- ✅ **Ähnlichkeitssuche** für verwandte Begriffe
+## Features
 
-### 🎯 **RVK-Integration**
-- ✅ **Direkte RVK-API-Anbindung** (rvk.uni-regensburg.de)
-- ✅ **Automatische Notations-Vorschläge** mit Relevanz-Ranking
-- ✅ **Bereits vorhandene RVK-Notationen** werden erkannt
-- ✅ **Export-Funktionen** für gefundene Notationen
+- Supports 50+ PICA fields (K10plus standard)
+- Automatic metadata extraction
+- Multi-system classification support (DDC, NLM, MeSH, STW)
+- RVK notation suggestions with relevance scoring
+- Direct RVK API integration
 
-## 🛠️ **Installation & Setup**
+## Usage
 
-### **Lokale Installation**
+1. Enter PICA data in K10plus format
+2. Click "PICA analysieren & RVK vorschlagen"
+3. Review suggested RVK notations
 
-```bash
-# Repository clonen
-git clone https://github.com/IhrUsername/rvk-pica-classifier.git
-cd rvk-pica-classifier
+## References
 
-# Dependencies installieren
-npm install
-
-# Entwicklungsserver starten
-npm start
+- [RVK Online](https://rvk.uni-regensburg.de/)
+- [K10plus Documentation](https://format.k10plus.de/)
+- [RVK API](http://rvk.uni-regensburg.de/Portal_API/)
