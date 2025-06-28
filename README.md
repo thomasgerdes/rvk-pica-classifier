@@ -1,20 +1,10 @@
 # RVK-PICA Classifier
 
-**RVK classification tool for German PICA libraries**
-
-This is an experimental project created entirely using artificial intelligence.
-
 ## Overview
 
-Analyzes PICA format metadata and suggests RVK (Regensburger Verbundklassifikation) notations for German library cataloging.
+This is an experimental project that relies entirely on AI to programme a tool which suggests RVK (Regensburger Verbundklassifikation) notation based on Pica format metadata.
 
-## Features
-
-- Supports 50+ PICA fields (K10plus standard)
-- Automatic metadata extraction
-- Multi-system classification support (DDC, NLM, MeSH, STW)
-- RVK notation suggestions with relevance scoring
-- Direct RVK API integration
+The tool is constantly being developed and improved, and is intended as a testing ground.
 
 ## Usage
 
